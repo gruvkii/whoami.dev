@@ -11,7 +11,7 @@ const signupConfirmInput = document.getElementById("signup-confirm-password");
 
 const SECRET_KEY = "whoami.dev";
 
-alert("whoami.dev is the password, email can be anything !");
+alert("whoami.dev is the password, email can be anything ! | Signup feature is not available atm ");
 document.querySelectorAll(".flip-trigger").forEach((link) => {
     link.addEventListener("click", (event) => {
         event.preventDefault();
